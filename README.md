@@ -6,9 +6,18 @@ Day to day I work as a developer on production systems for a microcredit fintech
 
 ### What I've built
 
-- **Help-desk triage agent** (in production, private): classifies incoming support tickets with AI, alerts the right people and summarizes the day. Review time per ticket went from up to 2 hours to up to 15 minutes.
+- **Help-desk triage agent** (in production, private): classifies incoming support tickets with AI, alerts the right people and summarizes the day. Review time per ticket went from up to 2 hours to up to 15 minutes. A public version rebuilt from scratch with fictional data: **[helpdesk-triage-agent](https://github.com/ArturDev98/helpdesk-triage-agent)**.
 - **[Chat Privacy Shield](https://github.com/ArturDev98/Chat-Privacy-Shield)**: Chrome extension for visual privacy on WhatsApp Web and Telegram Web, published on the Chrome Web Store in six languages.
 - **[Merged](https://github.com/ArturDev98/merged_app)**: Flutter app that brings GitLab activity, merge requests and pending reviews to your phone.
+
+### Open-source tools
+
+| Project | What it does | Stack |
+|---|---|---|
+| [helpdesk-triage-agent](https://github.com/ArturDev98/helpdesk-triage-agent) | Triages tickets with an LLM: classifies them, spots known issues and points to the likely cause in the code | Python · Claude API · SQLite |
+| [git-team-insights](https://github.com/ArturDev98/git-team-insights) | Ranks developers by quality, not volume: bugs traced back with SZZ and the quality of the code they own | Python · git |
+| [ci-image-notifier](https://github.com/ArturDev98/ci-image-notifier) | Tells the team chat which Docker images each Jenkins build published | Java 21 · Spring Boot · Jenkins |
+| [elastic-explorer](https://github.com/ArturDev98/elastic-explorer) | Read-only Elasticsearch explorer per environment, with mapping trees and per-cluster users | Spring Boot · Spring Security · Angular |
 
 ### How I work
 
