@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 56" width="220" height="56" role="img">
+<title>LinkedIn</title>
+<style>
+@font-face{font-family:'Red Hat Text';font-weight:600;src:url(data:font/woff2;base64,d09GMgABAAAAAANUAA8AAAAABjgAAAL8AAEHrgAAAAAAAAAAAAAAAAAAAAAAAAAAGhwbgTocKgZgP1NUQVREAFwRCAqDOIJmATYCJAMgCxIABCAFgSYHIBvNBFGUDspZAF8d8EQse3AlEWiEi43WYMdDze6fRGgOPEj4bviiCC6ir7HPnrd7DBJQISgOKyzPxiRORaszPv/o3P2axsOBNGAFNUeU4wia2+23JtakWA1NMIigRmGhG2JzZUfr/uegtx+Ck9Gh7AY6E4n9D4CbsHGw2/9NXI5/LXuQNQ3eeO4KeEz7MIcxgQL/67zrPKH8gdNthg3pK7RNCOmfJJgElBIluhERjNtyrOYliIF99msBVofBBbmPYwEGQXRlVIwq7xD4rEMZsphmMjBD0paIESCHh8WQ0pTOZqVbNk1/vX3HHsYBLgM99isKSX0xC972lI0aeyoNtV4Zbg0BgPeTH8DvtSW3/8e0FmM7mL8WsKZJPz6RRYUtVc/uQvj95hMaRTcrkKG+Ak1UmgYBhYZFTbCoewVMG1WGvRao9UZLF68FqrtvuClD+vXpKTn6iHTNIEbBLMbxB/gH6ICI6veVMrxdVFCaI/mQOKIQuX+SH5Lbr66wuutr1HGpTUSSPGzsIqJjXxcb2eO1X1xA7eWlaucSYHJgdRdhO3zhIgYNrim7OyuIQHhC+xLCZVxahNoFNBSJR6KwaF4E0C1Mlk9xHlF3VtLRwv0WmhcgJHhd74JSmCEdM9ztSr28HEpy3Fx0vJWWhSrFbipdhgPVmWzVHq/dqB4VLScNNTddPTVXJ00wmneZm3uFj49TeZGbh2euq0O5n0JBePaxmsq2WbDndbLqmsnfuKanpKgrCq7/1f/2UYr7ig7MvxG4HVWJLe6cdd88fQoNbTw8gtt/dch+kL6xmZ+eXqB5YLWuWaehko1eGsBfCIAwE29x0m6Jgnbfo4h4BrxEOxsA8BJPrNP3Ux74FxnDCoR/VlZV4Eacyr05AKNRbqPgXVRhXIRyIYRyUfoeYmVAGLWhQPijYR/gUsbEKrlYpq1awqQdacKsY2nKpLvnpo37IFSr8F7JXXgf1T4Xx7Vu0+AdMrVeq3OJ1GY9zWpScV1yk14ptJrlFjgwwDcG) format('woff2')}
+.bs{font-family:'Red Hat Text',sans-serif;font-weight:600;font-size:18px;fill:#E8EFF3}
+</style>
+<rect x="1" y="1" width="218" height="54" rx="27" fill="#0E161C" stroke="#4FC7D1" stroke-width="2"/>
+<text x="110" y="34.5" class="bs" text-anchor="middle">LinkedIn</text>
+</svg>

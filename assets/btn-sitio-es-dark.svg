@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 56" width="220" height="56" role="img">
+<title>Sitio web</title>
+<style>
+@font-face{font-family:'Red Hat Text';font-weight:600;src:url(data:font/woff2;base64,d09GMgABAAAAAAPoAA8AAAAABxQAAAOOAAEHrgAAAAAAAAAAAAAAAAAAAAAAAAAAGhwbgUgcKgZgP1NUQVREAGwRCAqEdIQcATYCJAMkCxQABCAFgSYHIBulBQAeBW7TM+LlJR7iT5JGQlpJiyKI5v6d3cujJJ/AQUmhYwWOJKFtfWWjW6Er7DeuZDQQ5Yc83/cFp99KKjkZwSPktDvttquY/+gA8385vbGeH8jE5bhX0cT0onSBRBrYXbSBPjUmZyeYYBiA9LxIEQ+z0aXx8AQg0AJSCiEUI75Z1LbpFnuMxpFA5k0j7oNMFfR9gbhhDfkgGYFQSWNhLJ0Vj+tmSDQE+jfpvwMACv0nbEEtB7UO+7WgtrfV5+yN4DsFvUBlEFRVH0HB5dR2aL4LWTwx1VW5OxWQQN7haXC8EXEZumMMZAxKlTEsBQEAJ4+yOXDbupnl//9XlN/RBQTEr7wOrIsTwlhiUSy2ib1ld+AxwFedHyYmQ6jMioFo8iyAImRMgwCJgkVxAovinQXmZYuT1omZWDn54Wb2kj/BNh1ywF47bLGpgNcP0WsGYQLmgQb3iVkAKkBIguO1di5klUzi29nZ4gzjmohMTpLN2uitWPxSJotEYnE02qwluZKXkXrN4+u6G1QpSerev28SzsRetBsata+ItIL87qtoLI54jzXD6SfGNTHKJO29O0+kmmdt0uvvVWkH7j51VNxu4pq8vOame6sMb0B3fZcVOTwdFHo58vy9jnxBa2Li6mjiDKSpdaehdLIJjt1Pg1ypXv6XIlWlGE8VbR5A+2lGrM+JDCNTJdzKZsZk2opCeaZCw5yc0BO9Qv6m9rOokeZpGm4+kVK69ZNiYYE9x2rgT9EtCwcBezw/v/kQr6Fj0kodDdPp47gTQ9vYdRcnwuaW39swBKlHJxub61czH9HPwt4JE8eoM1isSSKA0ehudJzgVPqkzlf1tY96hfSose5u99+2DamuassD9NeCf2OKqmdVAF+rgJ1jRhhFCTaLKsIYgxXCpgkWO60NoQxn46UaGkKpwS41Nj1qKQXRHPURbJ8IhCxGhtVsXTu/5Pga85rv9Z8bs+/LHLSZsH/l31liqUnqNElEEqK8h0GilwDgNgjEaHNTss+hzxr9Nk4rL+HJual2AJ5cirtnqf+WH/ILhhIEryXNtx6UfH3n9AQ2yXQ4l8BKugHLaaBEgn2pBkqchjVgPiIGEzsjz8FDQ6fEiWoirAKZT9NWRUFrh9CY1S1MaR0Bm1Y7RcTKohqDEa6ahNUsuI2xI3i+XoiclZOdA07Mystpmp+HBRPOyMPJTMTPy8gnDuj3s0AAAA==) format('woff2')}
+.bp{font-family:'Red Hat Text',sans-serif;font-weight:600;font-size:18px;fill:#07141A}
+</style>
+<rect width="220" height="56" rx="28" fill="#4FC7D1"/>
+<text x="110" y="34.5" class="bp" text-anchor="middle">Sitio web</text>
+</svg>
