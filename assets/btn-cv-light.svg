@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 56" width="220" height="56" role="img">
+<title>CV</title>
+<style>
+@font-face{font-family:'Red Hat Text';font-weight:600;src:url(data:font/woff2;base64,d09GMgABAAAAAAKAAA8AAAAABJQAAAInAAEHrgAAAAAAAAAAAAAAAAAAAAAAAAAAGhQbgQIcKgZgP1NUQVREADwRCAqBFIEiATYCJAMMCwgABCAFgSYHIBuVAyAuAtwmHilCk0QMiaYVcSKS1s37ufl4nm+/dt+sSfppE9ZIhGxyuliWToW6xE6lE+qGjOiARWOZ2btnUK+gQKAAUfkqX6GAhCkLXaH7x/18f1U8WnNk0Jqigjcb7XyAA6umaLAtceL/87/+2+d3BlgY6IkZZPZfQGHYjktwbPPbZwM6bYITHNh0mzDBwmsw00DobkZgDBD/5xiq6mZbdm8AaHeJdhVoPKgT5DbTrAIBAuGZMBNVJ3EeIkvEGNUUKSbPw0yFGGqIiA1h1zUS+jIAtEt7iQAWZS5zAIfyEbkEcXQoCThvCjoHAgCONz1eWNsUav3/X2l9pwsC8lXugSWOSJhBw2CN3efybQT8relFEoiXJpDRGNu3iCUJCFCgBQ1H0PAaocsTW3kF7KE+16kAhCopCAd0ocA67ADQBgit9RKjXzI9frtiT++fto3lb3T+IuPhjcP4ndic5osSN+TDGPlmEl0c9icTiuHComIgEYhFGUZY8d/d0kcFis41nnaKHZJKNwxWCweOhLpi+IUH224F+elsfOl577nNzIBrCKR3N0m0nY9To2/hmPsDi5MpPsDiwr3RqduzvUCXAcET+PLaQAXcxTabVjFG8ZKNcqBD0FIlIDjWtQRN7QhSRqpMUtkQjNV1jLRunSBuel2SqCU+GWksMxLaWDZk9LVLPKej/HlNYRkFOXltfhkVBWY1ZWkubQllBSk+NRUJVWhA5QIAAA==) format('woff2')}
+.bs{font-family:'Red Hat Text',sans-serif;font-weight:600;font-size:18px;fill:#0E161C}
+</style>
+<rect x="1" y="1" width="218" height="54" rx="27" fill="#F6F9FB" stroke="#0A6B75" stroke-width="2"/>
+<text x="110" y="34.5" class="bs" text-anchor="middle">CV</text>
+</svg>

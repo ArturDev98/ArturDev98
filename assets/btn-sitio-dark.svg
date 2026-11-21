@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 56" width="220" height="56" role="img">
+<title>Website</title>
+<style>
+@font-face{font-family:'Red Hat Text';font-weight:600;src:url(data:font/woff2;base64,d09GMgABAAAAAAO4AA8AAAAABoQAAANeAAEHrgAAAAAAAAAAAAAAAAAAAAAAAAAAGhwbgUQcKgZgP1NUQVREAFQRCAqEDIM+ATYCJAMcCxAABCAFgSYHIBsjBQAuCmxj6tBFQdQFy/B2/ItDpggU8fz/L9/tc9+kF1mLbc02+6MSwGEMK8rjkQbZjRsfyst/k9SprWR3K872Q7iap8I43D4gHt5u7+5uC1pKJRIUSGFb4AWcWCIhXvIrk73/AehVz/+59H/aRBOLdKIDqgZq3CyK7x3T1wvKFCk64wOCU29MH0rc/leJFhBMAkoJw2ZYP5ZxWzwxU2xyNlR3njZAVQf9/wiySVoaoIBA0CmjAl1eyeALSg6QNP1rW1m80X+MFw1hiP5bvAz9Vs39nFmp/wnG45SUiGF02JFPmyGqhBW0d4h32GP6lkPq8gmTD1nq0iE86guQFZ4JASoNta4y3BoC/LHnMSkZQwZo+fVvEdpPPACBNKYPsIYVMaqwiMEW5qysogR8Pfg6oiI6swikr1dAE5WmQUChYRErWCTjDkwaVToDAolqNIQMaP3OXHfVJRcj3OMjITXECJjGGL4DfgI6QJSBTBgW1AwUZSYP9LlSrqDIti1WKsznZAfMs03u1Po6PtbWlE5uOCLvXtwkBzY2EuUpezyY5k9Snv7mutzkMzwdIWadcvrWCrmrIzNDMMSxE/V2csAeRN6P/X05u7LQvOn1NlgkBx765h6RBWT3bPRWF/Y/8Mm5E/BPTtjxTGQAzriPB9ype3a4Pdav9wT/5uy9Z18Lrw/rPX3uz4U/iP72aNtfT7VxC5fEBLfGxYXS6ugopySrZ2GtIodv1tHOztZR4bb21icSJuMewX0sgUbHtCUmhkubomPjaqNCpcmmDTnVi9aWk94ZcZu81YjnDzHJ2dzMSQtRbe/PkHyzWTPC3g/GF8XIZov9AZku8fq2jh5GOps6heoJyvGxAe7usQW2Id4ik78BGVUJOjY2j/R122ML1ZJUEmID3HyTSpxgM5aekRivIhFJTu0xuHNSdPKT9Ttb9bHcqthtAL4hSPej+/P8RJla8FcFrv2HX3OEq159YUet9t/KBeY9hhUI/9Z+V+BM1J2jrhjJ5QqXWVUtonMkXCLrNM+t5gHMEIw4OHEM5g17wUodE6sQ02XaKitM2mEmzPJkpkx6OGzauBeZJMTMxeNR5rJJbEdrRCWpup/XIo9EtUpVqCwS9apFalRHLAHFq1NNJFOjerwGLND7EwMAAA==) format('woff2')}
+.bp{font-family:'Red Hat Text',sans-serif;font-weight:600;font-size:18px;fill:#07141A}
+</style>
+<rect width="220" height="56" rx="28" fill="#4FC7D1"/>
+<text x="110" y="34.5" class="bp" text-anchor="middle">Website</text>
+</svg>

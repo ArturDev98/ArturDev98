@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img">
+<title>Arturo Isaza. QA Automation · SDET · Bucaramanga, Colombia. I find the bug, fix it in the code and prove it with data. Available immediately.</title>
+<style>
+@font-face{font-family:'Oxanium';font-weight:700;src:url(data:font/woff2;base64,d09GMgABAAAAAATkAA8AAAAACmQAAASMAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbgn4cKgZgP1NUQVQqAHQRCAqJZIchATYCJANoCzYABCAFfAcgG+IHUZROzlAgXyWYm1twrTfMMriOBkMZ7nsMUv9qFyBy78fD93b//dqn+wHumboj8CMyQyoilEERGAEatU/sr94CSOIxG8mV9Cr9tHNp708/afq5gfny5WzlmN0FCrtFsP+sbJmNL7tk/GsFMJETw0iiSL8XwP/8X6r+n7HoOHsIxhPgiNztf5exdseiC+eVoAUr2BjbyvUQdWpL0AdsE9yHV+t/rEAjIAmhWwjUq5gprV6bkQ3hcQc310Ioh7IUiGMPb6wFG4GQSwi1kifkeD/q1anTbVr+9B/aOuQZCRb4L8pgBP9w+IuSKiGQyYUa9TKNWtVo16tRCL2SzVUt0NRYHarUyneY0Xowg3lgCMF8EtIZGteoVY2ginn+4WONV6qT4Pw8TUgvqSIdl/YCp19tHZeZaZshVIDFDOM1hVOz7nKqbdl3sg0BKUtPoJCEUCvQKTAonXRkeTMFkoCoTi+BhAydMp1q7iD8yVaZXGGyqVZIVaFeu84ydGuBWo3vs/z//vC1z7/jLW9+k1D+HSHKWhD6wWyMIo6BeAaQ88S5czHcT9vFknAun0KqVGPFVL6Vcy7TjJBiK39+02IB3n3vuf3ALDPBmivQ0zE8Sb0D2mcUc7qRiiD0FEaRG2aMKoHmQ5vsCpcXqa50EGgeSpcJc51FkHYUyQySbHRtnDTIqXcoMN3arLsBPbWfhAnGcdnAKq4xe6Vsoiz6LJV1krtBLxd1EKZSJD0vllqj/ffarpi+wvD+NvvLonN7nf7KC3OXDYFJKmN5I9j5gHWbS67ZXGBg7tGqL33PZ21qOsdbTKYNzCagrqFZWWRlKiSi0hX637nm84O5/+QJsfk1Tz5uem0+qoA9n5j34b07lt5xQVihu9/00r7TWRvwUxSD+w3qCqz/6oL3b6Chc3DbaFvUFQ/tRctuX7p+Mv2jXvjY9JLfSV29eX/BV5U7zlfHFosr6JEfnFQRSxBbEt1zPaKeWFDoGlPrV3JahWT6ar02gjiZWMci6ZRpbo2OyOCzGLppiQujXDvZTrvyOqw+Ymx+bLpUHFqtb33h0A7BNHmm9IXuEEmcx7rXP66wGpvHyxNxW/1OZdXR1dca0jxyPvbb9DZ6rPXwWMm163Kbc2tBV4SX2F6Oabt0nm93+bDqdvEFdxDtBIpidRNZ6GwZv9tOiitObdveP+mUNe7h+Lb7W7ala9tXx++2xurajfwe71c2vxy97a3H7NtdeuahX37PWZU7xYo+r/f9wT/XVJ0TZr0PjqP+8fPJt5T/czLFaQtx3leHt1hx6coc4Kzy2QKJ107e8ld+8d+1Ddl3go93PwDAZ9f/eLv2cn5WSb8I1RII/p7QQr5K+0YB3rw/rVGcbtAes+2ZxpqctkpJ1ZZf4TNY246brAcsIu2pjX5rsml3CZwivsrq2GFu3IcETiakydqzhbrh6YOp2sTo1h3dVvhCoF9/bFO2i3JzZSKvEyrc2ZNmlYCg0cyXVau11G7aFahVoUUNnTXaNWukwoxymfJ5MlOJMi2q53KjPGB55Th12C1Gs0UqnzYTAA==) format('woff2')}
+@font-face{font-family:'Red Hat Mono';font-weight:500;src:url(data:font/woff2;base64,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) format('woff2')}
+.nombre{font-family:'Oxanium',sans-serif;font-weight:700;font-size:56px;fill:#E8EFF3}
+.tesis{font-family:'Oxanium',sans-serif;font-weight:700;font-size:44px;fill:#E8EFF3;letter-spacing:-0.01em}
+.rol{font-family:'Red Hat Mono',monospace;font-weight:500;font-size:17px;letter-spacing:0.12em;fill:#8A9EAA}
+.disp{font-family:'Red Hat Mono',monospace;font-weight:500;font-size:16px;fill:#E8EFF3}
+.halo{opacity:0;transform-box:fill-box;transform-origin:center;animation:pulso 4s ease-out infinite}
+.barrido{opacity:0;animation:barrer 8s linear infinite}
+.amb{opacity:0;animation:falla 8s ease-in-out infinite}
+.ver{opacity:1;animation:corrige 8s ease-in-out infinite}
+@keyframes pulso{0%{transform:scale(1);opacity:.55}70%,100%{transform:scale(3);opacity:0}}
+@keyframes barrer{0%{transform:translateX(-90px);opacity:0}4%{opacity:1}46%{opacity:1}50%{transform:translateX(466px);opacity:0}100%{transform:translateX(466px);opacity:0}}
+@keyframes falla{0%,37%{opacity:0}39%,60%{opacity:1}64%,100%{opacity:0}}
+@keyframes corrige{0%,62%{opacity:0}68%,93%{opacity:1}98%,100%{opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none !important}}
+</style>
+<defs>
+<linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#4FC7D1" stop-opacity="0"/><stop offset="0.7" stop-color="#4FC7D1" stop-opacity="0.32"/><stop offset="1" stop-color="#4FC7D1" stop-opacity="0.55"/></linearGradient>
+<clipPath id="m"><rect width="376" height="280"/></clipPath>
+</defs>
+<rect x="0.5" y="0.5" width="1199" height="419" rx="20" fill="#0E161C" stroke="#24333C"/>
+<text x="56" y="96" class="nombre">Arturo Isaza</text>
+<text x="56" y="128" class="rol">QA AUTOMATION · SDET · BUCARAMANGA, COLOMBIA</text>
+<text x="56" y="182" class="tesis" xml:space="preserve">I find the bug,</text><rect x="173.3" y="191" width="158.66" height="4" rx="2" fill="#E9B35A"/><text x="56" y="234" class="tesis" xml:space="preserve">fix it in the code and</text><text x="56" y="286" class="tesis" xml:space="preserve">prove it with data.</text><rect x="228.04" y="295" width="197.12" height="4" rx="2" fill="#6FBE8C"/>
+<rect x="56.5" y="316.5" width="260" height="40" rx="20" fill="none" stroke="#24333C"/>
+<circle cx="78" cy="336.5" r="4.5" class="halo" fill="#6FBE8C"/>
+<circle cx="78" cy="336.5" r="4.5" fill="#6FBE8C"/>
+<text x="94" y="342" class="disp">Available immediately</text>
+<g transform="translate(768 70)">
+<rect x="0" y="0" width="40" height="40" rx="6" fill="#6FBE8C" fill-opacity="0.2" stroke="#6FBE8C" stroke-opacity="0.55"/>
+<rect x="48" y="0" width="40" height="40" rx="6" fill="#131E25" fill-opacity="1" stroke="#24333C" stroke-opacity="1"/>
+<rect x="96" y="0" width="40" height="40" rx="6" fill="#131E25" fill-opacity="1" stroke="#24333C" stroke-opacity="1"/>
+<rect x="144" y="0" width="40" height="40" rx="6" fill="#131E25" fill-opacity="1" stroke="#24333C" stroke-opacity="1"/>
+<rect x="192" y="0" width="40" height="40" rx="6" fill="#6FBE8C" fill-opacity="0.2" stroke="#6FBE8C" stroke-opacity="0.55"/>
+<rect x="240" y="0" width="40" height="40" rx="6" fill="#131E25" fill-opacity="1" stroke="#24333C" stroke-opacity="1"/>
+<rect x="288" y="0" width="40" height="40" rx="6" fill="#131E25" fill-opacity="1" stroke="#24333C" stroke-opacity="1"/>
+<rect x="336" y="0" width="40" height="40" rx="6" fill="#131E25" fill-opacity="1" stroke="#24333C" stroke-opacity="1"/>
+<rect x="0" y="48" width="40" height="40" rx="6" fill="#131E25" fill-opacity="1" stroke="#24333C" stroke-opacity="1"/>
+<rect x="48" y="48" width="40" height="40" rx="6" fill="#131E25" fill-opacity="1" stroke="#24333C" stroke-opacity="1"/>
+<rect x="96" y="48" width="40" height="40" rx="6" fill="#131E25" fill-opacity="1" stroke="#24333C" stroke-opacity="1"/>
+<rect x="144" y="48" width="40" height="40" rx="6" fill="#131E25" fill-opacity="1" stroke="#24333C" stroke-opacity="1"/>
+<rect x="192" y="48" width="40" height="40" rx="6" fill="#131E25" fill-opacity="1" stroke="#24333C" stroke-opacity="1"/>
+<rect x="240" y="48" width="40" height="40" rx="6" fill="#131E25" fill-opacity="1" stroke="#24333C" stroke-opacity="1"/>
+<rect x="288" y="48" width="40" height="40" rx="6" fill="#131E25" fill-opacity="1" stroke="#24333C" stroke-opacity="1"/>
+<rect x="336" y="48" width="40" height="40" rx="6" fill="#131E25" fill-opacity="1" stroke="#24333C" stroke-opacity="1"/>
+<rect x="0" y="96" width="40" height="40" rx="6" fill="#131E25" fill-opacity="1" stroke="#24333C" stroke-opacity="1"/>
+<rect x="48" y="96" width="40" height="40" rx="6" fill="#131E25" fill-opacity="1" stroke="#24333C" stroke-opacity="1"/>
+<rect x="96" y="96" width="40" height="40" rx="6" fill="#6FBE8C" fill-opacity="0.2" stroke="#6FBE8C" stroke-opacity="0.55"/>
+<rect x="144" y="96" width="40" height="40" rx="6" fill="#131E25" fill-opacity="1" stroke="#24333C" stroke-opacity="1"/>
+<rect x="192" y="96" width="40" height="40" rx="6" fill="#131E25" fill-opacity="1" stroke="#24333C" stroke-opacity="1"/>
+<rect x="240" y="96" width="40" height="40" rx="6" fill="#131E25" fill-opacity="1" stroke="#24333C" stroke-opacity="1"/>
+<rect x="288" y="96" width="40" height="40" rx="6" fill="#6FBE8C" fill-opacity="0.2" stroke="#6FBE8C" stroke-opacity="0.55"/>
+<rect x="336" y="96" width="40" height="40" rx="6" fill="#131E25" fill-opacity="1" stroke="#24333C" stroke-opacity="1"/>
+<rect x="0" y="144" width="40" height="40" rx="6" fill="#131E25" fill-opacity="1" stroke="#24333C" stroke-opacity="1"/>
+<rect x="48" y="144" width="40" height="40" rx="6" fill="#131E25" fill-opacity="1" stroke="#24333C" stroke-opacity="1"/>
+<rect x="96" y="144" width="40" height="40" rx="6" fill="#131E25" fill-opacity="1" stroke="#24333C" stroke-opacity="1"/>
+<rect x="144" y="144" width="40" height="40" rx="6" fill="#131E25" fill-opacity="1" stroke="#24333C" stroke-opacity="1"/>
+<rect x="192" y="144" width="40" height="40" rx="6" fill="#131E25" fill-opacity="1" stroke="#24333C" stroke-opacity="1"/>
+<rect x="240" y="144" width="40" height="40" rx="6" fill="#131E25" fill-opacity="1" stroke="#24333C" stroke-opacity="1"/>
+<rect x="288" y="144" width="40" height="40" rx="6" fill="#131E25" fill-opacity="1" stroke="#24333C" stroke-opacity="1"/>
+<rect x="336" y="144" width="40" height="40" rx="6" fill="#131E25" fill-opacity="1" stroke="#24333C" stroke-opacity="1"/>
+<rect x="0" y="192" width="40" height="40" rx="6" fill="#6FBE8C" fill-opacity="0.2" stroke="#6FBE8C" stroke-opacity="0.55"/>
+<rect x="48" y="192" width="40" height="40" rx="6" fill="#131E25" fill-opacity="1" stroke="#24333C" stroke-opacity="1"/>
+<rect x="96" y="192" width="40" height="40" rx="6" fill="#131E25" fill-opacity="1" stroke="#24333C" stroke-opacity="1"/>
+<rect x="144" y="192" width="40" height="40" rx="6" fill="#131E25" fill-opacity="1" stroke="#24333C" stroke-opacity="1"/>
+<rect x="192" y="192" width="40" height="40" rx="6" fill="#6FBE8C" fill-opacity="0.2" stroke="#6FBE8C" stroke-opacity="0.55"/>
+<rect x="240" y="192" width="40" height="40" rx="6" fill="#131E25" fill-opacity="1" stroke="#24333C" stroke-opacity="1"/>
+<rect x="288" y="192" width="40" height="40" rx="6" fill="#131E25" fill-opacity="1" stroke="#24333C" stroke-opacity="1"/>
+<rect x="336" y="192" width="40" height="40" rx="6" fill="#131E25" fill-opacity="1" stroke="#24333C" stroke-opacity="1"/>
+<rect x="0" y="240" width="40" height="40" rx="6" fill="#131E25" fill-opacity="1" stroke="#24333C" stroke-opacity="1"/>
+<rect x="48" y="240" width="40" height="40" rx="6" fill="#131E25" fill-opacity="1" stroke="#24333C" stroke-opacity="1"/>
+<rect x="96" y="240" width="40" height="40" rx="6" fill="#131E25" fill-opacity="1" stroke="#24333C" stroke-opacity="1"/>
+<rect x="144" y="240" width="40" height="40" rx="6" fill="#131E25" fill-opacity="1" stroke="#24333C" stroke-opacity="1"/>
+<rect x="192" y="240" width="40" height="40" rx="6" fill="#131E25" fill-opacity="1" stroke="#24333C" stroke-opacity="1"/>
+<rect x="240" y="240" width="40" height="40" rx="6" fill="#131E25" fill-opacity="1" stroke="#24333C" stroke-opacity="1"/>
+<rect x="288" y="240" width="40" height="40" rx="6" fill="#131E25" fill-opacity="1" stroke="#24333C" stroke-opacity="1"/>
+<rect x="336" y="240" width="40" height="40" rx="6" fill="#131E25" fill-opacity="1" stroke="#24333C" stroke-opacity="1"/>
+<g class="amb"><rect x="240" y="96" width="40" height="40" rx="6" fill="#E9B35A"/><path d="M253 109L267 123M267 109L253 123" fill="none" stroke="#07141A" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g class="ver"><rect x="240" y="96" width="40" height="40" rx="6" fill="#6FBE8C"/><path d="M252 117L258 123L268 110" fill="none" stroke="#07141A" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g clip-path="url(#m)"><rect class="barrido" x="-90" y="0" width="90" height="280" fill="url(#g)"/></g>
+</g>
+</svg>
