@@ -4,8 +4,6 @@
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg"><img src="assets/hero-light.svg" alt="Arturo Isaza, QA Automation · SDET. I find the bug, fix it in the code and prove it with data. Available immediately." width="800"></picture>
 </p>
 
-**I find the bug, fix it in the code and prove it with data.**
-
 Looking for a QA Automation / SDET role, remote or hybrid (based in Bucaramanga, Colombia). Available immediately.
 
 <p align="center">
@@ -50,7 +48,7 @@ A requirement goes in and comes out as a test plan, Playwright tests, a report a
 
 ## Experience
 
-- **HexaSolutions** · QA Analyst · May 2023 – Nov 2026
+- **HexaSolutions** · QA Analyst for Crezcamos, a microcredit fintech · May 2023 – Nov 2026
 - **Avances Software** · QA Analyst · Aug 2022 – May 2023
 - **Sistemas y Computadores S.A.** · QA Tester · Jul 2021 – Aug 2022
 
@@ -66,7 +64,5 @@ B.Eng. Systems Engineering, CUN, in progress · expected May 2027
 **Tracking:** Jira · Azure DevOps · Mantis · SysAid · Taiga · Scrum  
 
 ## Hiring for QA Automation or SDET?
-
-Looking for a QA Automation / SDET role, remote or hybrid (based in Bucaramanga, Colombia). Available immediately.
 
 [Email me](mailto:testpbr9@gmail.com) · [LinkedIn](https://www.linkedin.com/in/arturo-isaza-qa) · [arturdev98.github.io](https://arturdev98.github.io/?lang=en)

@@ -215,21 +215,30 @@ ${celdas}<g class="amb">${marca(t.ambar, equis)}</g>
 }
 
 // ---------- cifras ----------
+const ET = 26, LH = 34, MIN = 22, W_C = 380, X_C = 28;
+// Altura común: la de la tarjeta más alta del idioma, para que las tres midan igual.
+function disposicion(l, i) {
+  const lineas = envolver('t500', ET, l.cifras[i - 1][1], W_C - 2 * X_C);
+  if (lineas.length > 3) throw new Error(`etiqueta de ${lineas.length} líneas`);
+  const ultima = 112 + (lineas.length - 1) * LH;
+  const by = ultima + 26;
+  return { lineas, ultima, by, fondo: i === 2 ? by + 8 + 12 + MIN : ultima + 8 };
+}
 function prueba(l, tema, i) {
   const t = TEMAS[tema];
-  const W = 380, H = 188, X = 28;
+  const W = W_C, X = X_C;
+  const H = Math.max(...[1, 2, 3].map((k) => disposicion(l, k).fondo)) + 28;
   const [valor, etq] = l.cifras[i - 1];
-  const lineas = envolver('t500', 16, etq, W - 2 * X);
-  if (lineas.length > 2) throw new Error(`etiqueta de ${lineas.length} líneas`);
-  const textos = lineas.map((s, k) => `<text x="${X}" y="${100 + k * 22}" class="etq">${esc(s)}</text>`).join('\n');
+  const { lineas, by } = disposicion(l, i);
+  const textos = lineas.map((s, k) => `<text x="${X}" y="${112 + k * LH}" class="etq">${esc(s)}</text>`).join('\n');
   let barra = '', cssBarra = '', usoMono = '';
   if (i === 2) {
-    const fin = 0.449, pw = W - 2 * X, by = 100 + (lineas.length - 1) * 22 + 24;
+    const fin = 0.449, pw = W - 2 * X;
     usoMono = l.min.join('');
     barra = `<rect x="${X}" y="${by}" width="${pw}" height="8" rx="4" fill="${t.celda}" stroke="${t.borde}"/>
 <g class="barra"><rect x="${X}" y="${by}" width="${pw}" height="8" rx="4" fill="${t.verde}"/><rect class="viejo" x="${X}" y="${by}" width="${pw}" height="8" rx="4" fill="${t.ambar}"/></g>
-<text x="${X}" y="${by + 26}" class="min" fill="${t.verde}">${esc(l.min[1])}</text>
-<text x="${W - X}" y="${by + 26}" class="min" text-anchor="end" fill="${t.ambar}">${esc(l.min[0])}</text>`;
+<text x="${X}" y="${by + 8 + 12 + MIN - 4}" class="min" fill="${t.verde}">${esc(l.min[1])}</text>
+<text x="${W - X}" y="${by + 8 + 12 + MIN - 4}" class="min" text-anchor="end" fill="${t.ambar}">${esc(l.min[0])}</text>`;
     cssBarra = `
 .barra{transform-box:fill-box;transform-origin:left center;transform:scaleX(${fin});animation:encoge 9s ease-in-out infinite}
 .viejo{opacity:0;animation:envejece 9s ease-in-out infinite}
@@ -237,8 +246,8 @@ function prueba(l, tema, i) {
 @keyframes envejece{0%,20%{opacity:1}45%,96%{opacity:0}96.01%,100%{opacity:1}}`;
   }
   const css = `.num{${fam.ox};font-size:60px;fill:${t.cian}}
-.etq{${fam.t500};font-size:16px;fill:${t.suave}}
-.min{${fam.mono};font-size:13px}${cssBarra}
+.etq{${fam.t500};font-size:${ET}px;fill:${t.suave}}
+.min{${fam.mono};font-size:${MIN}px}${cssBarra}
 ${SIN_MOVIMIENTO}`;
   const cuerpo = `<rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="16" fill="${t.panel}" stroke="${t.borde}"/>
 <text x="${X}" y="68" class="num">${esc(valor)}</text>

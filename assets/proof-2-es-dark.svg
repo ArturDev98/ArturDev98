@@ -1,24 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 188" width="380" height="188" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 242" width="380" height="242" role="img">
 <title>2× más rápido el proceso más lento de la plataforma</title>
 <style>
 @font-face{font-family:'Oxanium';font-weight:700;src:url(data:font/woff2;base64,d09GMgABAAAAAAH4AA4AAAAAA7QAAAGiAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGyAcKgZgP1NUQVQqADwRCAqBAIEOATYCJAMKCwgABCAFfAcgG8UCAD4PN8YgBPP7Z0ElsoNCOnsog6txs8/Jg2m9+OgPZlUwCY4g2u91du8FmGxYAdrEfZsoaj2BcLU1NrpAkiQKU6HZoG3e44kKkZDhI55Nm88lr65UC4BeKOJFBzdgPKNdCzDU/2sP3O1wqQRGmB5CSmlA5VUcJA1wh7quElHTxS80/2tXbHla5GnisT5hpFmiiWcb0HR32/nEBm5DmMcjVl4tFWg2Oh4HR0EBSQX/AQLN5hezU5Nvnl33UJtjUOUS4cmb2YD7uRJP6b+YLXgSeM17X8r3q/yLgCx5DSZTCI0CvYHRvHW+vBIgBUR9PgckCnqLQG9lkXqVkJa//AeX//+sAIT4TwdCAfVIzLEJVIAQQxJPavVfnzQvai1veFzxAW1qtaounYrJqqBT8UCNMpq39f3Cf8/CPE/bAZwiSD5/SNthFuUnvp4M4Mezh8r2vAb1EgRfRdqg1SwI8tpN6aP7CIqhXhxoVdaLqJqEWbOkdrMqaLV8sl6jrWNPvb2Vmx3t0NPVWS+wsrB0lZlZuNnqndVm+sp3sDVhgf/rAAAA) format('woff2')}
 @font-face{font-family:'Red Hat Text';font-weight:500;src:url(data:font/woff2;base64,d09GMgABAAAAAAYEAA8AAAAACuQAAAWpAAEHrgAAAAAAAAAAAAAAAAAAAAAAAAAAGlQbgiIcXgZgP1NUQVREAGQRCAqKRIhMATYCJANQCyoABCAFgSIHIBu7CAgeh7Fj+oHItQ6Vugzy4XHb/7l3A5W2a9Qwm420A19Uh/grAiL0vP9kaYpDnoBUaFqwlsB2Q5tOkKKuq6Bl//8fe/XdH0XRmGn4gT9Ixf1Ry7eqFhoOh9laib4zoIHpQGkquElQK1Zj5seze4EAUADIABAQ+CJpCpif+aGmoPDu1AhBKPjqWRCSDwVfAWRIkIZabOX1UA3pOWYYVGAB4KczanDfUcPgfThk/ZEcApcpZm7AFfjAC+jJPQdeSADPQCcBPB9rJTqQpTCk8DxP9QQ8W+0NABSeNQMyra+Wgd4cAGWgPl01AyloCqBekKQRTScDBmSAktVOFiwIoVJIwuXfKM8hA/v3ZLOUIIyaU0ihgKbaC7638WEEUrA0mvxKAtBFtBlAGb6JuJCWQoASCcNSImUYAAxurPjKynEDMT5i/j7PgbokqadxOcgP9AqAGAxISoEAQhImje8/YAwB8NdRgShPOqXRd8rIr5CqKVEBSAhQNQMgAEkmYlHdqaHBHPDynvoZaIQxPvJYgd7iIUbVu54dg/1ts8VmsSAvRSfxCPUMBkSX6wCBQJYBNChNRaiQ3n5KQQmQyGzQT8BNUcoof3WoTwirYLlAjabm+Rnu1LCou5vMfOMN+WJ3Lpn5SraoK6cxGQsqIxe6Gmc8xU6PjWTfPdmiJz0lqsLqQ91tXZjhdmdb3zDWXOli1emZJtaFHPEz1hDBXGavG1Bstbi1Vbnt1jPZoic35IyMyMlMtJ0NxL599Q1XADlkVM7IqWvRNQa5Pu4qZlyRS5rYtTyOe6KJBI58JjOzW7boCb9241yixGFD8NbTI8rP6Drd1jfIzO4k3yARR1i+elO3gbZtbdDhoNseTrftDcS6fTnpIg11ReJFd7zNczLzUlbj1RWWXOoe8gQzLmY2tKQnksvFpkv8e8+4Kl+8X4s9dzqb5PUfeGdUcbxgMplK6uJztVY1Kci+lx9r8zsTax2Q0t7Zr63R2pGlLo2avYF7msZ9cb756bOEjHegG7ZhgnmM3WEePUy05fbR265tEaMSeZtJX56aoq+wmfhEMXrzNWsfPfyf4n5i/ki7o3DEANFsLI+9HuXSfOQyn6xKCKjWmaPaPh4sRHEmu1FfkZqqr7TzMEzbCNE82uksGj1IEMX+5oKRztCJ5UarTatPFEL7PjrVHvtSF26fuisx4eRQLNw9pHyIq7yutiJA7KplVvvqrLr2heULd8O+O39I6ghLDw3NCAvLCA1Nh2O5NB/BsTsrLzkMSekVafnPapIzU50mfXWW0Mnn5YrpcT1rQoiP4OLz8sV0cfkg1YurL1cZUzMqeWN1psWlKzBbsxJPlvQHN2zDzMWjnc5h/+GC1TZUKJnzITaUd0I1L/JcVWo6V0GVPG/hlempXNWZsK8bLvueai6lpO/VcbEVjuovCqayE5Uzwkx2Xl+ZmqYvx0STTohuf3+IEHMS/4cBmbbcJFXtmfo7bpXRnGwow1c+xYPia77/wRnGpb4dF164rl5lV1pKsvkkoS4xO70j4of3W0qDOT49Jix8f4PKqbQJ2aZ0e4sOvtNqF0oMfcv7LugI2LqkfEkAB+5122psUnxcNnb6pM3TIeVAAEjh/4PlIAXgBS+yALPgfT/EuAEk3yZu+gSRQAvpt5Qkv7fTowEBQLyOvazx3dOpLvjNW858CQCftJiTgsd3MLcRdpMJod8CkIICAAjwY425WLxjCqjn9yYHlKKg4UgeqlmktYFknZgFiPQ9cv0Ah4sP/Oa4VyCtjXBk3K95hbAsQ0zHIbLjEekzAMAnIAACGFEkY0DQS9GrcnklBoT1AUEIzOkoVAixI4ACHMjYaaBkF71PBRlK1eqrjxgOPY0Ro15fE4xZV/c31pCKUZrS9oH6G9BARUUfAzP3oZzG6GnIj+ut1nBD9TQMAwCAp9BHDwAAAA==) format('woff2')}
 @font-face{font-family:'Red Hat Mono';font-weight:500;src:url(data:font/woff2;base64,d09GMgABAAAAAAN4AA8AAAAABiAAAAMgAAEHrgAAAAAAAAAAAAAAAAAAAAAAAAAAGhgbIBwqBmA/U1RBVEQAZBEICoRIg2ABNgIkAxQLFAAEIAWBIgcgG6EEUVQvxmF+HORkqL1EEaI8aFMZ4uLWBXUxeeaPQTzF83z70e6bWVFvglvCIx6Sp61kSuR0L4mS8aT2f7LLfzMTzwXGXgAd4I2wly9WVCUzcf0rqErh/P/9Tf2rITg1ABmTPr4L26JdaAkuCqenYWCJBhYFApm3JDF6dKLbbSP6dgpBDyCiCiLoMiMBOtUmUICPFmgCEHRZkwUHtAu4aeWGICoMG24pl9BXrZQH5RKAM4dL5AbwUwtKWjtbStpqRQDg3MluATy2YKj+/v+J+jsMEMiHch8LiIgOBSMwVuAttodD+Pvy0lCvaDEAQbryFVWU9IGAgooRRDDCw0VgQBCCBXn4SlTqNdR0ocF7m1fnTv720wPNXgGI9C8TiOgEQ0AXnuMtoAVQRBBRlJ6htZGW0zhKEgL7Nz1E6x7RzQ9g7X3jpmlE/JA/XvuAbn6VCcefU0Lh3D26+U30uXd08xTgLrLuod+m41F795IIt3BGdwaa7nifhZVqqqCIPffsEHJlkwLZtzVx7eXJGoUd/MNDLMUU/Lh6Sb/EJycjlekq9ZmpZGYmjylMZ50Fl2dcf3S6DExaa9WaNuFM/MYJx8SfMdkVGpE48LogVFpwKzc654fs4H2o+qPIiToVl5SwUCtIYWrbqzi5IZOXEHzhqVeAzyj5Q4mB967sAu0Hs7BCYSsR5uVJSlvMWTUNreWph8W98PpI5eKYfVHLydiCj/AuihHUVRfJ0wtEGzh+Q5OjsFJenhqT17D8+38dSGy5znX1PbDfMYqN152YJ4DwF4rVyrYDjnHRue0ma6ExLquo5WtzWFqrtbV0o6GRLats6a2ottQ317GD1V3uEiOTs5LRChgmrzU9szk3J7OxjZMGsHVfkPZHD3e9P24OPPTNh9Z38HLjayLg5fV6D6IaUzmJ36NNAeGZ83JJloVbaXUEkXYAq1kVLfDCXlHSIHRaL9OAsTbnEWnpFBOAGEWfCVPosYa7hB24Vzgyr0+X02ScHJJ0sOIkERo2ZFhQWW4DnWPUnHqxenCEUp6yl9ugThyrAb3sZIYNshpCgAbHFQAA) format('woff2')}
 .num{font-family:'Oxanium',sans-serif;font-weight:700;font-size:60px;fill:#4FC7D1}
-.etq{font-family:'Red Hat Text',sans-serif;font-weight:500;font-size:16px;fill:#B9CAD4}
-.min{font-family:'Red Hat Mono',monospace;font-weight:500;font-size:13px}
+.etq{font-family:'Red Hat Text',sans-serif;font-weight:500;font-size:26px;fill:#B9CAD4}
+.min{font-family:'Red Hat Mono',monospace;font-weight:500;font-size:22px}
 .barra{transform-box:fill-box;transform-origin:left center;transform:scaleX(0.449);animation:encoge 9s ease-in-out infinite}
 .viejo{opacity:0;animation:envejece 9s ease-in-out infinite}
 @keyframes encoge{0%,20%{transform:scaleX(1);opacity:1}45%{transform:scaleX(0.449);opacity:1}92%{transform:scaleX(0.449);opacity:1}96%{transform:scaleX(0.449);opacity:0}96.01%{transform:scaleX(1);opacity:0}100%{transform:scaleX(1);opacity:1}}
 @keyframes envejece{0%,20%{opacity:1}45%,96%{opacity:0}96.01%,100%{opacity:1}}
 @media (prefers-reduced-motion: reduce){*{animation:none !important}}
 </style>
-<rect x="0.5" y="0.5" width="379" height="187" rx="16" fill="#0E161C" stroke="#24333C"/>
+<rect x="0.5" y="0.5" width="379" height="241" rx="16" fill="#0E161C" stroke="#24333C"/>
 <text x="28" y="68" class="num">2×</text>
-<text x="28" y="100" class="etq">más rápido el proceso más lento de la</text>
-<text x="28" y="122" class="etq">plataforma</text>
-<rect x="28" y="146" width="324" height="8" rx="4" fill="#131E25" stroke="#24333C"/>
-<g class="barra"><rect x="28" y="146" width="324" height="8" rx="4" fill="#6FBE8C"/><rect class="viejo" x="28" y="146" width="324" height="8" rx="4" fill="#E9B35A"/></g>
-<text x="28" y="172" class="min" fill="#6FBE8C">2,2 min</text>
-<text x="352" y="172" class="min" text-anchor="end" fill="#E9B35A">4,9 min</text>
+<text x="28" y="112" class="etq">más rápido el proceso más</text>
+<text x="28" y="146" class="etq">lento de la plataforma</text>
+<rect x="28" y="172" width="324" height="8" rx="4" fill="#131E25" stroke="#24333C"/>
+<g class="barra"><rect x="28" y="172" width="324" height="8" rx="4" fill="#6FBE8C"/><rect class="viejo" x="28" y="172" width="324" height="8" rx="4" fill="#E9B35A"/></g>
+<text x="28" y="210" class="min" fill="#6FBE8C">2,2 min</text>
+<text x="352" y="210" class="min" text-anchor="end" fill="#E9B35A">4,9 min</text>
 </svg>

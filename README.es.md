@@ -4,8 +4,6 @@
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-es-dark.svg"><img src="assets/hero-es-light.svg" alt="Arturo Isaza, QA Automation · SDET. Encuentro la falla, la corrijo en el código y lo demuestro con datos. Disponible de inmediato." width="800"></picture>
 </p>
 
-**Encuentro la falla, la corrijo en el código y lo demuestro con datos.**
-
 Busco un rol de QA Automation / SDET en Bucaramanga, híbrido o remoto. Disponible de inmediato.
 
 <p align="center">
@@ -50,7 +48,7 @@ Un requisito entra y sale como plan de pruebas, pruebas de Playwright, reporte y
 
 ## Experiencia
 
-- **HexaSolutions** · Analista de Pruebas QA · may 2023 – nov 2026
+- **HexaSolutions** · Analista de Pruebas QA para Crezcamos, fintech de microcrédito · may 2023 – nov 2026
 - **Avances Software** · Analista de Pruebas QA · ago 2022 – may 2023
 - **Sistemas y Computadores S.A.** · QA Tester · jul 2021 – ago 2022
 
@@ -66,7 +64,5 @@ Ingeniería de Sistemas, CUN, en curso · esperado mayo 2027
 **Gestión:** Jira · Azure DevOps · Mantis · SysAid · Taiga · Scrum  
 
 ## ¿Buscas QA Automation o SDET?
-
-Busco un rol de QA Automation / SDET en Bucaramanga, híbrido o remoto. Disponible de inmediato.
 
 [Escríbeme](mailto:testpbr9@gmail.com) · [LinkedIn](https://www.linkedin.com/in/arturo-isaza-qa) · [arturdev98.github.io](https://arturdev98.github.io/?lang=es)
