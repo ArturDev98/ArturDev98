@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 170" width="380" height="170" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 188" width="380" height="188" role="img">
 <title>~1 h de tarea nueva a código probado, con agentes de IA</title>
 <style>
 @font-face{font-family:'Oxanium';font-weight:700;src:url(data:font/woff2;base64,d09GMgABAAAAAAIIAA8AAAAABBQAAAGxAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhQbIBwqBmA/U1RBVCoATBEICoEggRoBNgIkAxQLDAAEIAV8ByAb/wIgLg5sNxRDwpJ0ajl6AvkYD/zb/fv7nLn3aWJMALKju2T1rLn6pINa8Ys3D2EUWnERL3P+1xZWZrTZTgc62vmmA4IJPurESrxL0iAPPIERSm5jGORNSHI1EVAOELhHmXoaCEOHj52qRA4KgIg211Lsq7B20db1agXXIBdbxbvyxLVxJvau7XBaZ3+TCJjsZQ9l9ic1Cu39nXzwNwLEJN5BJgqCEgHVBNQTd6xYuTVAFCAUxbsgIkE1iYBqcnqiTIkoynSy0v4C2D8uvJFCAgCCUKAigjwoQ4J26AHIAYIgUCGtluZT6TGxLDlUVkxDmpSFGWkuNWfGg/pNulDNGdOm3tV/8kXVpo5848nV69fXH12Wnb1s4uHfODh+cJfHHzms4aB5c6ssrvJIBWPHTZnS18FGAZGmpbPaL6jY97eSNPkALybOB6+vfL4mIzaOb1AkgsDDI04OUJYIhHwcZikwMg42cYpkfiAgr5oAghrldJcIuVJBU6xFFTR1gXI6ny1Sor8JdlpkvVW2WSczzE5bbbbIWKussNJWky0jtllr0VFmWFZqsA3WWioBCutMAA==) format('woff2')}
@@ -8,7 +8,7 @@
 .min{font-family:'Red Hat Mono',monospace;font-weight:500;font-size:13px}
 @media (prefers-reduced-motion: reduce){*{animation:none !important}}
 </style>
-<rect x="0.5" y="0.5" width="379" height="169" rx="16" fill="#0E161C" stroke="#24333C"/>
+<rect x="0.5" y="0.5" width="379" height="187" rx="16" fill="#0E161C" stroke="#24333C"/>
 <text x="28" y="68" class="num">~1 h</text>
 <text x="28" y="100" class="etq">de tarea nueva a código probado, con</text>
 <text x="28" y="122" class="etq">agentes de IA</text>

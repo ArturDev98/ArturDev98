@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 170" width="380" height="170" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 188" width="380" height="188" role="img">
 <title>2× más rápido el proceso más lento de la plataforma</title>
 <style>
 @font-face{font-family:'Oxanium';font-weight:700;src:url(data:font/woff2;base64,d09GMgABAAAAAAH4AA4AAAAAA7QAAAGiAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGyAcKgZgP1NUQVQqADwRCAqBAIEOATYCJAMKCwgABCAFfAcgG8UCAD4PN8YgBPP7Z0ElsoNCOnsog6txs8/Jg2m9+OgPZlUwCY4g2u91du8FmGxYAdrEfZsoaj2BcLU1NrpAkiQKU6HZoG3e44kKkZDhI55Nm88lr65UC4BeKOJFBzdgPKNdCzDU/2sP3O1wqQRGmB5CSmlA5VUcJA1wh7quElHTxS80/2tXbHla5GnisT5hpFmiiWcb0HR32/nEBm5DmMcjVl4tFWg2Oh4HR0EBSQX/AQLN5hezU5Nvnl33UJtjUOUS4cmb2YD7uRJP6b+YLXgSeM17X8r3q/yLgCx5DSZTCI0CvYHRvHW+vBIgBUR9PgckCnqLQG9lkXqVkJa//AeX//+sAIT4TwdCAfVIzLEJVIAQQxJPavVfnzQvai1veFzxAW1qtaounYrJqqBT8UCNMpq39f3Cf8/CPE/bAZwiSD5/SNthFuUnvp4M4Mezh8r2vAb1EgRfRdqg1SwI8tpN6aP7CIqhXhxoVdaLqJqEWbOkdrMqaLV8sl6jrWNPvb2Vmx3t0NPVWS+wsrB0lZlZuNnqndVm+sp3sDVhgf/rAAAA) format('woff2')}
@@ -13,12 +13,12 @@
 @keyframes envejece{0%,20%{opacity:1}45%,96%{opacity:0}96.01%,100%{opacity:1}}
 @media (prefers-reduced-motion: reduce){*{animation:none !important}}
 </style>
-<rect x="0.5" y="0.5" width="379" height="169" rx="16" fill="#F6F9FB" stroke="#C5D3DB"/>
+<rect x="0.5" y="0.5" width="379" height="187" rx="16" fill="#F6F9FB" stroke="#C5D3DB"/>
 <text x="28" y="68" class="num">2×</text>
 <text x="28" y="100" class="etq">más rápido el proceso más lento de la</text>
 <text x="28" y="122" class="etq">plataforma</text>
-<rect x="28" y="128" width="324" height="8" rx="4" fill="#E6EEF2" stroke="#C5D3DB"/>
-<g class="barra"><rect x="28" y="128" width="324" height="8" rx="4" fill="#1D7342"/><rect class="viejo" x="28" y="128" width="324" height="8" rx="4" fill="#8A5600"/></g>
-<text x="28" y="158" class="min" fill="#1D7342">2,2 min</text>
-<text x="352" y="158" class="min" text-anchor="end" fill="#8A5600">4,9 min</text>
+<rect x="28" y="146" width="324" height="8" rx="4" fill="#E6EEF2" stroke="#C5D3DB"/>
+<g class="barra"><rect x="28" y="146" width="324" height="8" rx="4" fill="#1D7342"/><rect class="viejo" x="28" y="146" width="324" height="8" rx="4" fill="#8A5600"/></g>
+<text x="28" y="172" class="min" fill="#1D7342">2,2 min</text>
+<text x="352" y="172" class="min" text-anchor="end" fill="#8A5600">4,9 min</text>
 </svg>

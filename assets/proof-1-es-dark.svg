@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 170" width="380" height="170" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 188" width="380" height="188" role="img">
 <title>89 casos de soporte resueltos corrigiendo yo mismo el código</title>
 <style>
 @font-face{font-family:'Oxanium';font-weight:700;src:url(data:font/woff2;base64,d09GMgABAAAAAAIMAA4AAAAAA/wAAAG3AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGyAcKgZgP1NUQVQqADQRCAqBUIFZATYCJAMKCwgABCAFfAcgGwgDQJ6FsWNtM10iybScKjIVPn48/P/++PY5930yyTPNakxEiW5QhpOQmf+a1RWKsmDhtvsZJDKRlDUtoVnECGrXTjVhecYZ5okmFkT0KK+X/7Uugzd1h3Q68aG+17c0wUTiBAeaLqH0EYSBUm5TMPIOyum3QwUa9RkQM9QJTBX8Bwg0mjAlE3nWKu4Vdg4qV2k6n6shF9sOOHLlxDHHL8MGOPRHvLbI4tz7P7/KR78QkDmfYUgKoV6gW6BP7q6/CVJA1HwOEgXdikC3yhAqlcDigEUhPgFCBB2hgFrUYDPYCqACFDmam7sat9HJ2StX3Is42dR0lhNTy5bf5URj45ltJ964w8VSdNoV9pnqtxIVFItz746pUyMjp6ZW37lz5s6d1RLtmF28MTBwbGDg8MYv8ZbJ3Lc3v7lqZubxmrmbvi1YsOF2D1fP8XSwHyHJv3qzr23ZV7OpfIS3W/YC+HDpyy3zyJbPUCtB8C1drvfBvBVhfHpjndbgHYFijgIC9ioLFFEahDEUSa3GqKDZnCdr1Vths19hNXgsHOv9bqeCNuj0bpFG5zErnHJNfcq1mdU48H9zAAA=) format('woff2')}
@@ -8,7 +8,7 @@
 .min{font-family:'Red Hat Mono',monospace;font-weight:500;font-size:13px}
 @media (prefers-reduced-motion: reduce){*{animation:none !important}}
 </style>
-<rect x="0.5" y="0.5" width="379" height="169" rx="16" fill="#0E161C" stroke="#24333C"/>
+<rect x="0.5" y="0.5" width="379" height="187" rx="16" fill="#0E161C" stroke="#24333C"/>
 <text x="28" y="68" class="num">89</text>
 <text x="28" y="100" class="etq">casos de soporte resueltos corrigiendo yo</text>
 <text x="28" y="122" class="etq">mismo el código</text>

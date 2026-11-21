@@ -1,6 +1,6 @@
 // Regenera todo assets/ de forma determinista. Uso: node tools/generar.mjs [carpeta-de-fuentes]
 import { execFileSync } from 'node:child_process';
-import { mkdirSync, readdirSync, rmSync, writeFileSync } from 'node:fs';
+import { mkdirSync, readdirSync, unlinkSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 
@@ -87,8 +87,14 @@ const specFuente = (id, texto) => ({ id, archivo: path.join(dirFuentes, FUENTES[
 
 // Tabla de avances con todos los caracteres que pueden aparecer en los textos.
 const todos = new Set(' abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.,:;·×~()-áéíóúñÁÉÍÓÚ¿¡');
+(function juntar(v) { if (typeof v === 'string') [...v].forEach((c) => todos.add(c)); else if (v && typeof v === 'object') Object.values(v).forEach(juntar); })(TXT);
 const tabla = py({ solo_tabla: true, fuentes: Object.keys(FUENTES).map((id) => specFuente(id, [...todos].join(''))) });
-const ancho = (id, tam, texto, ls = 0) => [...texto].reduce((s, c) => s + tabla[id].adv[c] * tam, 0) + ls * texto.length;
+// Lanza si falta un carácter: un NaN aquí rompería el ajuste de líneas sin avisar.
+const ancho = (id, tam, texto, ls = 0) => [...texto].reduce((s, c) => {
+  const a = tabla[id].adv[c];
+  if (a === undefined) throw new Error(`sin ancho para ${JSON.stringify(c)} en ${id}`);
+  return s + a * tam;
+}, 0) + ls * texto.length;
 
 function envolver(id, tam, texto, max) {
   const lineas = []; let act = '';
@@ -132,22 +138,22 @@ const SIN_MOVIMIENTO = '@media (prefers-reduced-motion: reduce){*{animation:none
 // ---------- hero ----------
 function hero(l, tema) {
   const t = TEMAS[tema];
-  const W = 1200, H = 420, X = 56, TAM = 44, LH = 52;
+  const W = 1200, H = 412, X = 56, TAM = 44, LH = 52, LS = -TAM * 0.01;
   const lineas = [l.tesis, l.tesis2, l.tesis3];
   const textos = lineas.map((ln) => ln.map((p) => p[0]).join(''));
-  const maxLinea = Math.max(...textos.map((s) => ancho('ox', TAM, s)));
+  const maxLinea = Math.max(...textos.map((s) => ancho('ox', TAM, s, LS)));
   if (maxLinea > 650) throw new Error(`hero tesis ancha: ${maxLinea}`);
-  const rolTxt = l.rol.toUpperCase();
-  const rolAncho = ancho('mono', 17, rolTxt, 17 * 0.12);
-  if (rolAncho > 690) throw new Error(`hero rol ancho: ${rolAncho}`);
+  const rolTxt = l.rol;
+  const rolAncho = ancho('mono', 26, rolTxt);
+  if (rolAncho > 700) throw new Error(`hero rol ancho: ${rolAncho}`);
 
-  const y0 = 182;
+  const y0 = 190;
   let tesisSvg = '';
   lineas.forEach((ln, i) => {
     const y = y0 + i * LH;
     let x = X; let tspans = ''; let subr = '';
     for (const [txt, marca] of ln) {
-      const wTxt = ancho('ox', TAM, txt);
+      const wTxt = ancho('ox', TAM, txt, LS);
       tspans += txt;
       if (marca) subr += `<rect x="${n(x)}" y="${y + 9}" width="${n(wTxt)}" height="4" rx="2" fill="${t[marca]}"/>`;
       x += wTxt;
@@ -156,7 +162,7 @@ function hero(l, tema) {
   });
 
   const pillTxt = ancho('mono', 16, l.disp);
-  const pillW = Math.ceil(pillTxt + 58), pillY = 316;
+  const pillW = Math.ceil(pillTxt + 58), pillY = 322;
   // Matriz 8x6 a la derecha; el sitio usa la misma idea en su portada.
   const C = 8, R = 6, S = 40, G = 8, mw = C * S + (C - 1) * G, mh = R * S + (R - 1) * G;
   const mx = W - X - mw, my = Math.round((H - mh) / 2);
@@ -175,7 +181,7 @@ function hero(l, tema) {
 
   const css = `.nombre{${fam.ox};font-size:56px;fill:${t.ink}}
 .tesis{${fam.ox};font-size:${TAM}px;fill:${t.ink};letter-spacing:-0.01em}
-.rol{${fam.mono};font-size:17px;letter-spacing:0.12em;fill:${t.mudo}}
+.rol{${fam.mono};font-size:26px;fill:${t.mudo}}
 .disp{${fam.mono};font-size:16px;fill:${t.ink}}
 .halo{opacity:0;transform-box:fill-box;transform-origin:center;animation:pulso 4s ease-out infinite}
 .barrido{opacity:0;animation:barrer 8s linear infinite}
@@ -192,7 +198,7 @@ ${SIN_MOVIMIENTO}`;
 <clipPath id="m"><rect width="${mw}" height="${mh}"/></clipPath>
 </defs>
 <rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="20" fill="${t.panel}" stroke="${t.borde}"/>
-<text x="${X}" y="96" class="nombre">${esc(l.nombre)}</text>
+<text x="${X}" y="90" class="nombre">${esc(l.nombre)}</text>
 <text x="${X}" y="128" class="rol">${esc(rolTxt)}</text>
 ${tesisSvg}
 <rect x="${X}.5" y="${pillY}.5" width="${pillW}" height="40" rx="20" fill="none" stroke="${t.borde}"/>
@@ -211,18 +217,19 @@ ${celdas}<g class="amb">${marca(t.ambar, equis)}</g>
 // ---------- cifras ----------
 function prueba(l, tema, i) {
   const t = TEMAS[tema];
-  const W = 380, H = 170, X = 28;
+  const W = 380, H = 188, X = 28;
   const [valor, etq] = l.cifras[i - 1];
   const lineas = envolver('t500', 16, etq, W - 2 * X);
+  if (lineas.length > 2) throw new Error(`etiqueta de ${lineas.length} líneas`);
   const textos = lineas.map((s, k) => `<text x="${X}" y="${100 + k * 22}" class="etq">${esc(s)}</text>`).join('\n');
   let barra = '', cssBarra = '', usoMono = '';
   if (i === 2) {
-    const fin = 0.449, pw = W - 2 * X, by = 128;
+    const fin = 0.449, pw = W - 2 * X, by = 100 + (lineas.length - 1) * 22 + 24;
     usoMono = l.min.join('');
     barra = `<rect x="${X}" y="${by}" width="${pw}" height="8" rx="4" fill="${t.celda}" stroke="${t.borde}"/>
 <g class="barra"><rect x="${X}" y="${by}" width="${pw}" height="8" rx="4" fill="${t.verde}"/><rect class="viejo" x="${X}" y="${by}" width="${pw}" height="8" rx="4" fill="${t.ambar}"/></g>
-<text x="${X}" y="158" class="min" fill="${t.verde}">${esc(l.min[1])}</text>
-<text x="${W - X}" y="158" class="min" text-anchor="end" fill="${t.ambar}">${esc(l.min[0])}</text>`;
+<text x="${X}" y="${by + 26}" class="min" fill="${t.verde}">${esc(l.min[1])}</text>
+<text x="${W - X}" y="${by + 26}" class="min" text-anchor="end" fill="${t.ambar}">${esc(l.min[0])}</text>`;
     cssBarra = `
 .barra{transform-box:fill-box;transform-origin:left center;transform:scaleX(${fin});animation:encoge 9s ease-in-out infinite}
 .viejo{opacity:0;animation:envejece 9s ease-in-out infinite}
@@ -254,8 +261,9 @@ function boton(texto, tema, primario) {
 }
 
 // ---------- salida ----------
-rmSync(salida, { recursive: true, force: true });
 mkdirSync(salida, { recursive: true });
+// Solo borra lo que este script genera: otros archivos de assets/ se respetan.
+for (const f of readdirSync(salida)) if (/^(hero|proof-\d|btn-(sitio|cv|linkedin))[\w-]*-(dark|light)\.svg$/.test(f)) unlinkSync(path.join(salida, f));
 const escribir = (nombre, svg) => writeFileSync(path.join(salida, nombre), svg);
 for (const tema of Object.keys(TEMAS)) {
   for (const l of Object.values(TXT)) {
